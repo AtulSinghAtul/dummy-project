@@ -1,0 +1,17 @@
+#cta-btn {
+  background-color: #ff4500; /* set the background color of the button */
+  color: white; /* set the text color of the button */
+  padding: 12px 24px; /* set the padding of the button */
+  border-radius: 4px; /* round the edges of the button */
+  font-size: 18px; /* set the font size of the button text */
+  border: none; /* remove the border of the button */
+  cursor: pointer; /* change the cursor to a pointer when hovering over the button */
+}
+
+#cta-btn:hover {
+  background-color: #ff6347; /* change the background color of the button when hovering over it */
+}
+
+.fa {
+  color: green;
+}
