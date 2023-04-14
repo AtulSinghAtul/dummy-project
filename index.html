@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="wrapper w-screen h-screen">
-      <header class="flex flex-col">
+      <header id="home" class="flex flex-col">
         <nav class="flex flex-row justify-around items-center py-5 bg-blue-400">
           <a href=""
             ><img
@@ -30,11 +30,11 @@
           <ul
             class="flex flex-row justify-center items-center gap-x-[40px] text-white"
           >
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div>
@@ -47,7 +47,7 @@
       </header>
       <!-- service section -->
 
-      <section>
+      <section id="services">
         <p class="text-[35px] font-bold text-center mt-20">
           Impact Created By Your Valuable Contributions
         </p>
@@ -141,6 +141,7 @@
 
       <!-- about section -->
       <section
+        id="about"
         class="about-section flex flex-col justify-center items-center w-[100%] h-fit px-[200px] my-[100px] pb-20"
       >
         <h1 class="text-[50px] font-bold mb-5">
@@ -199,7 +200,7 @@
 
       <!-- testimonial section -->
 
-      <section class="w-screen h-fit py-20 bg-yellow-300">
+      <section id="testimonials" class="w-screen h-fit py-20 bg-yellow-300">
         <div class="w-[100%] px-24 flex flex-col gap-y-24">
           <h2
             class="text-[40px] text-center bg-yellow-100 p-3 font-semibold rounded-md text-green-700"
@@ -352,6 +353,7 @@
 
       <!-- contact section -->
       <section
+        id="contact"
         class="flex flex-wrap justify-center items-baseline w-screen h-fit gap-20 py-20 bg-[#333F46] text-white"
       >
         <div class="flex flex-col gap-3 justify-start items-baseline w-[250px]">
